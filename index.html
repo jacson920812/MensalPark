@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>MensalPark</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🚗 MensalPark</h1>
+  <p>Sistema de controle de mensalistas</p>
+
+  <div class="form">
+    <input type="text" id="nome" placeholder="Nome">
+    <input type="text" id="telefone" placeholder="Telefone">
+    <input type="number" id="valor" placeholder="Valor">
+    <input type="number" id="vencimento" placeholder="Dia vencimento">
+
+    <button onclick="adicionarCliente()">Adicionar</button>
+  </div>
+
+  <h2>Clientes</h2>
+  <div id="lista"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
